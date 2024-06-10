@@ -1,6 +1,6 @@
 .margin-and-align-center{
     text-align: center;
-    margin-bottom: 40px;
+    padding : 15px;
 }
 
 .logo-navbar{
@@ -13,12 +13,31 @@
 }
 
 .sign-up{
+    padding: 10px;
     background-color: aqua;
     border-color: white;
+    border-radius: 5px;
 }
 
 .navbar{
+    display: flex;
+    justify-content: space-between;
     margin-top: 20px;
     margin-bottom: 20px;
     padding-left: 300px;
+    padding-right: 300px;
+}
+
+.navbar-right{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-right > div{
+    padding: 0px 5px 0px 5px;
+}
+
+a{
+    text-decoration: none;
+    color: gray;
 }
