@@ -1,6 +1,6 @@
 .margin-and-align-center{
     text-align: center;
-    padding : 15px;
+    padding : 10px;
 }
 
 .logo-navbar{
@@ -22,10 +22,10 @@
 .navbar{
     display: flex;
     justify-content: space-between;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 20px;
-    padding-left: 300px;
-    padding-right: 300px;
+    padding: 10px 300px 10px 300px;
+    box-shadow: 2px 1px 2px #eee;
 }
 
 .navbar-right{
@@ -34,7 +34,7 @@
 }
 
 .navbar-right > div{
-    padding: 0px 5px 0px 5px;
+    padding: 0px 15px 0px 15px;
 }
 
 a{
